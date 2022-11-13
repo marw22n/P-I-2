@@ -10,16 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'testing github action'
-        run: pwd
-
       - name: 'printing folder contents'
         run: ls
 
       - uses: actions/checkout@v3
 
-       - name: 'after'
-         run: ls
+      - name: 'after'
+        run: ls
 
       
 
